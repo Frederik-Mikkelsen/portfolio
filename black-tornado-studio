@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/4c3fffb16a.js" crossorigin="anonymous"></script>
+    <title>Black Tornado Studio</title>
+</head>
+<body>
+    <div class="page-container">
+        <section class="home__grid-container" id="home">
+
+            <nav class="navbar">
+                
+                <div class="logo__container">
+                    <a href="index.html">
+                        <img src="images/black-tornado-logo.png" alt="Logo" class="logo">
+                        <p>Black Tornado
+                            <br>
+                            <span>Recording Studio</span>
+                        </P>
+                    </a>
+                </div>
+
+                    <form action="" class="theme-switch">
+                        <fieldset>
+                            <legend class="visually-hidden">Pick a color scheme</legend>
+                            <label for="theme" class="visually-hidden">Light</label>
+                            <input type="radio" name="theme" id="light" checked>
+
+                            <label for="theme" class="visually-hidden">Dark</label>
+                            <input type="radio" name="theme" id="dark">
+                        </fieldset>
+                    </form>
+
+
+                <div class="navigation">
+                    
+                    <ul class="menu">
+                        <li><a class="activeNav" href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="booking.html">Booking</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+                </div>
+                <button class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+
+            <main class="main" aria-label="image-slider">
+                <div class="slider">
+                    <div class="slide current">
+                        <div class="content">
+                            <h1>Recording Space 80 m2</h1>
+                            <a href="about.html">
+                                <button class="content__button">See Equipment</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="content">
+                            <h1>Recording Space 80 m2</h1>
+                            <a href="about.html">
+                                <button class="content__button">See Equipment</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="content">
+                            <h1>Isolation Room 12 m2</h1>
+                            <a href="about.html">
+                                <button class="content__button">See Equipment</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="content">
+                            <h1>Isolation Room 12 m2</h1>
+                            <a href="about.html">
+                                <button class="content__button">See Equipment</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="content">
+                            <h1>Control Room 40 m2</h1>
+                            <a href="about.html">
+                                <button class="content__button">See Equipment</button>  
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="content">
+                            <h1>Control Room 40 m2</h1>
+                            <a href="about.html">
+                                <button class="content__button">See Equipment</button>  
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="content">
+                            <h1>Lounge 60 m2</h1>
+                            <a href="about.html">
+                                <button class="content__button">See Equipment</button>  
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="content">
+                            <h1>Lounge 60 m2</h1>
+                            <a href="about.html">
+                                <button class="content__button">See Equipment</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__buttons">
+                    <button id="prev"><i class="fas fa-arrow-left"></i></button>
+                    <button id="next"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </main>
+        </section>
+    
+        <section class="info-container">
+            <div class="info__text">
+                <p>
+                    Black Tornado is a music, mix and recording studio, located in Copenhagen, Denmark.
+                    Established in 1998.
+                </p>
+                <p>
+                    We specialise in recording and mixing of bands and orchestras up to 30 people, 
+                    and we have a live room big enough to accommodate a whole band recording at once.
+                </p>
+                <p>
+                    We supply a variety of recording formats, from Pro Tools HDX with 48 I/O, 
+                    to the old Studer A820 2-track 1/2" and 24-track 2" analog machines.
+                </p>
+                <p>
+                    The studio is based around a 48 channel SSL 4000 E/G mixing console, 
+                    and also houses a big variety of vintage outboard equipment from Fairchild, 
+                    Neve, Manley, DBX, Disa, Neumann and many others. <a href="about.html">...learn more about us</a>
+                </p>
+            </div>
+            <div class="info__services-container">
+                <h1>Our Services</h1>
+                <div class="info__services">
+                    <div>
+                        <a href="booking.html">
+                            <i class="fa-solid fa-microphone-lines"></i>
+                            <h2>Recording</h2>
+                        </a>
+                    </div>    
+                    <div>
+                        <a href="booking.html">
+                            <i class="fa-solid fa-headphones"></i>
+                            <h2>Mixing</h2>
+                        </a>
+                    </div>    
+                    <div>
+                        <a href="booking.html">
+                            <i class="fa-solid fa-compact-disc"></i>
+                            <h2>Mastering</h2>
+                        </a>
+                    </div>    
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="slider.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
